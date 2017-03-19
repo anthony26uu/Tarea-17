@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace UsuarioTech
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
-        public Form1()
+        public Principal()
         {
             InitializeComponent();
         }
@@ -30,6 +30,18 @@ namespace UsuarioTech
         private void permisosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ui.Registros.RegistroPermisos db = new Ui.Registros.RegistroPermisos();
+            db.Show();
+        }
+
+        private void reportesUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ui.Reportes.ReporteUsuario db = new Ui.Reportes.ReporteUsuario();
+            db.Show();
+        }
+
+        private void usuarioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Ui.Consultas.ConsultaUsuario db = new Ui.Consultas.ConsultaUsuario();
             db.Show();
         }
     }

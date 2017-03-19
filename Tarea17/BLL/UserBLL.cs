@@ -21,6 +21,25 @@ namespace BLL
             return retorno;
 
         }
+
+        public static List<Entidades.Usuarios> GetList()
+        {
+            List<Entidades.Usuarios> lista = new List<Entidades.Usuarios>();
+            using (var db = new UserDb())
+            {
+                try
+                {
+                    lista = db.UsuarioDb.ToList();
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+                return lista;
+            }
+        }
+    
         public static Entidades.Usuarios GuardarBool(Entidades.Usuarios n)
         {
             bool retono = false;
