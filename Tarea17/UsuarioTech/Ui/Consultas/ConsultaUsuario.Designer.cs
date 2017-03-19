@@ -31,11 +31,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.buscaText = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.HastadateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.desdeDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -67,15 +64,6 @@
             this.label3.TabIndex = 55;
             this.label3.Text = "SELECIONE";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(239, 74);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 54;
-            this.label2.Text = "HASTA";
-            // 
             // buscaText
             // 
             this.buscaText.Location = new System.Drawing.Point(320, 20);
@@ -90,24 +78,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(104, 21);
             this.comboBox1.TabIndex = 52;
-            // 
-            // HastadateTimePicker1
-            // 
-            this.HastadateTimePicker1.CustomFormat = "yyy/MM/dd";
-            this.HastadateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.HastadateTimePicker1.Location = new System.Drawing.Point(310, 70);
-            this.HastadateTimePicker1.Name = "HastadateTimePicker1";
-            this.HastadateTimePicker1.Size = new System.Drawing.Size(108, 20);
-            this.HastadateTimePicker1.TabIndex = 51;
-            // 
-            // desdeDateTimePicker
-            // 
-            this.desdeDateTimePicker.CustomFormat = "yyy/MM/dd";
-            this.desdeDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.desdeDateTimePicker.Location = new System.Drawing.Point(120, 68);
-            this.desdeDateTimePicker.Name = "desdeDateTimePicker";
-            this.desdeDateTimePicker.Size = new System.Drawing.Size(104, 20);
-            this.desdeDateTimePicker.TabIndex = 50;
             // 
             // dataGridView1
             // 
@@ -125,11 +95,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.buscaText);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.HastadateTimePicker1);
-            this.Controls.Add(this.desdeDateTimePicker);
             this.Controls.Add(this.dataGridView1);
             this.Name = "ConsultaUsuario";
             this.Text = "ConsultaUsuario";
@@ -145,11 +112,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox buscaText;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker HastadateTimePicker1;
-        private System.Windows.Forms.DateTimePicker desdeDateTimePicker;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -53,15 +53,6 @@
             permisosIdLabel.TabIndex = 1;
             permisosIdLabel.Text = "Permisos Id:";
             // 
-            // permisosIdMaskedTextBox
-            // 
-            this.permisosIdMaskedTextBox.Location = new System.Drawing.Point(120, 57);
-            this.permisosIdMaskedTextBox.Mask = "99999";
-            this.permisosIdMaskedTextBox.Name = "permisosIdMaskedTextBox";
-            this.permisosIdMaskedTextBox.Size = new System.Drawing.Size(73, 20);
-            this.permisosIdMaskedTextBox.TabIndex = 2;
-            this.permisosIdMaskedTextBox.ValidatingType = typeof(int);
-            // 
             // descripconLabel
             // 
             descripconLabel.AutoSize = true;
@@ -70,6 +61,15 @@
             descripconLabel.Size = new System.Drawing.Size(64, 13);
             descripconLabel.TabIndex = 3;
             descripconLabel.Text = "Descripcon:";
+            // 
+            // permisosIdMaskedTextBox
+            // 
+            this.permisosIdMaskedTextBox.Location = new System.Drawing.Point(120, 57);
+            this.permisosIdMaskedTextBox.Mask = "99999";
+            this.permisosIdMaskedTextBox.Name = "permisosIdMaskedTextBox";
+            this.permisosIdMaskedTextBox.Size = new System.Drawing.Size(73, 20);
+            this.permisosIdMaskedTextBox.TabIndex = 2;
+            this.permisosIdMaskedTextBox.ValidatingType = typeof(int);
             // 
             // descripconTextBox
             // 
@@ -159,7 +159,7 @@
             this.Controls.Add(descripconLabel);
             this.Controls.Add(this.descripconTextBox);
             this.Name = "RegistroPermisos";
-            this.Text = "RegistroPermisos";
+            this.Text = "Registro Permisos";
             this.Load += new System.EventHandler(this.RegistroPermisos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderTodo)).EndInit();
             this.ResumeLayout(false);

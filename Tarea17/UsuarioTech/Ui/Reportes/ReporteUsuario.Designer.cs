@@ -36,9 +36,9 @@
             this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.reportViewer1.Location = new System.Drawing.Point(1, 3);
+            this.reportViewer1.Location = new System.Drawing.Point(12, 12);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(801, 356);
+            this.reportViewer1.Size = new System.Drawing.Size(789, 356);
             this.reportViewer1.TabIndex = 0;
             // 
             // ReporteUsuario
@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(802, 363);
             this.Controls.Add(this.reportViewer1);
             this.Name = "ReporteUsuario";
-            this.Text = "ReporteUsuario";
+            this.Text = "Reporte Usuario";
             this.Load += new System.EventHandler(this.ReporteUsuario_Load);
             this.ResumeLayout(false);
 

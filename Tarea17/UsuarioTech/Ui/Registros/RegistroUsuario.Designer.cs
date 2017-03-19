@@ -238,7 +238,7 @@
             this.Controls.Add(passUsuarioLabel);
             this.Controls.Add(this.passUsuarioTextBox);
             this.Name = "RegistroUsuario";
-            this.Text = "RegistroUsuario";
+            this.Text = "Registro Usuario";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegistroUsuario_FormClosed);
             this.Load += new System.EventHandler(this.RegistroUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.IdnumericUpDown)).EndInit();

@@ -40,7 +40,7 @@ namespace UsuarioTech.Ui.Consultas
 
             if (comboBox1.SelectedIndex == 1)
             {
-                if (desdeDateTimePicker.Value.Date <= HastadateTimePicker1.Value.Date)
+                if (comboBox1.SelectedIndex == 0)
                 {
                     dataGridView1.DataSource = BLL.UserBLL.Buscar(p => p.Tipo == buscaText.Text);
                 }
