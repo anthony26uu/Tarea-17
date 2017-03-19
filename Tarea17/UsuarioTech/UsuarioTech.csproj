@@ -135,7 +135,6 @@
     <EmbeddedResource Include="Ui\Registros\RegistroUsuario.resx">
       <DependentUpon>RegistroUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ui\Reportes\Permisos.rdlc" />
     <EmbeddedResource Include="Ui\Reportes\ReporteUsuario.resx">
       <DependentUpon>ReporteUsuario.cs</DependentUpon>
     </EmbeddedResource>

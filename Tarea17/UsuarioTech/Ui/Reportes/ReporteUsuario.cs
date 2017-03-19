@@ -25,6 +25,7 @@ namespace UsuarioTech.Ui.Reportes
             reportViewer1.LocalReport.ReportPath = @"C:\Users\antho\OneDrive - Universidad Católica Nordestana (UCNE)\Tareas de Anthony\Semestre 7\Aplicada I\Repositorios\Tarea-17\Tarea17\UsuarioTech\Ui\Reportes";
             ReportDataSource source = new ReportDataSource("DataSet", BLL.UserBLL.GetList());
             reportViewer1.LocalReport.DataSources.Add(source);
+
         }
     }
 }
